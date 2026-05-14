@@ -23,7 +23,7 @@ namespace OP;
  * @return    array        $config
  */
 return [
-	'title'     => 'The onepiece-framework app skeleton '._OP_APP_BRANCH_,
+	'title'     => 'uqunie.org',
 	'copyright' => "Copyright (C) {$_SERVER['SERVER_NAME']} All Rights Reserved.",
 	'app.phtml' =>  OP::isAdmin() ? true: false,
 ];
