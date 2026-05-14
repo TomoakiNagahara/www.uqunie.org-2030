@@ -21,6 +21,7 @@ namespace OP;
 return [
 	//	Allowed commit message prefix.
 	'prefix' => [
+		'uqunie: ',
 		'New: ',
 		'Add: ',
 		'Chg: ',
