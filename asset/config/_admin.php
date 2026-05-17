@@ -17,14 +17,17 @@ declare(strict_types=1);
  */
 namespace OP;
 
-//  ...
+//	...
 $ip   = '';
 $list = [
 	'153.189.161.72', // antendo
 ];
-//  Check if the IP address is in the list of allowed IPs.
+
+//	Check if the IP address is in the list of allowed IPs.
+if( isset($_SERVER['HTTP_CF_CONNECTING_IP']) ){
 if( array_search( $_SERVER['HTTP_CF_CONNECTING_IP'], $list ) !== false ){
 	$ip = $_SERVER['HTTP_CF_CONNECTING_IP'];
+}
 }
 
 /**	Return array of admin settings.
