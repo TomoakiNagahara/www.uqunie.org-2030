@@ -1,6 +1,5 @@
 .*
 _*
-public_html/
 asset/db/
 asset/core/
 asset/bootstrap/
@@ -11,4 +10,5 @@ asset/module/
 asset/layout/
 asset/webpack/
 asset/docs/
+public/ikebukuro
 
