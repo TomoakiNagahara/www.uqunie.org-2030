@@ -19,6 +19,6 @@ namespace OP;
 
 //	...
 return [
-	'skip'   =>  1,
+	'skip'   =>  0,
 	'url'    => 'https://github.com/TomoakiNagahara/op-module-contact.git',
 ];
