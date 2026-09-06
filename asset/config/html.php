@@ -18,7 +18,9 @@ declare(strict_types=1);
 namespace OP;
 
 //	app
-$title = OP()->Config('app')['title'] ?? null;
+$app         = OP()->Config('app');
+$title       = $app['title']       ?? null;
+$description = $app['description'] ?? null;
 
 /**	Default settings.
  *
@@ -28,4 +30,5 @@ return [
 	'charset'   => null,
 	'canonical' => null,
 	'title'     => $title,
+	'description' => $description,
 ];
